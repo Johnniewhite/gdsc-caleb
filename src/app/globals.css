@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.class {
+  font-family: var(--font-poppins);
+}
+
+.generalHeaderBox {
+  margin: 1rem;
+  padding: 2px 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.childItemInHeader {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.titleText {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.linksRouter {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 1.2rem;
+    font-weight: 500;
+    vertical-align: middle;
+    padding: 1.3rem 1.3rem;
+    text-align: right;
+    justify-content: end;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+:root {
+
+--black-primary: #000000;
+--gray-primary: #EDFFEC;
+}
