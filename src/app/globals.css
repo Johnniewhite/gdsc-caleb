@@ -10,12 +10,17 @@
   margin: 1rem;
   padding: 2px 2px;
   display: flex;
+
+  border: solid;
+
   justify-content: space-between;
 }
 .childItemInHeader {
   display: inline-block;
   padding: 1rem 1rem;
   vertical-align: middle;
+
+  border: solid;
 }
 
 .titleText {
@@ -34,6 +39,11 @@
     text-align: right;
     justify-content: end;
     margin-left: auto;
+    border: solid;
+    border-color: red;
+    position: absolute;
+    right: 1rem;
+    top: 1.7rem;
 }
 
 
