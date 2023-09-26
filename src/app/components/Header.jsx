@@ -29,13 +29,13 @@ const products = [
   {
     name: "Engagement",
     description: "Check out our most recent social media activities",
-    href: "#",
+    href: "/engagement",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Catalogue",
     description: "Check out projects made by members of our community",
-    href: "#",
+    href: "/catalogue",
     icon: SquaresPlusIcon,
   },
   {
