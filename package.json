@@ -17,6 +17,7 @@
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-social-icons": "^6.3.0",
     "styled-components": "^5.3.10",
     "supabase": "^1.99.5",
     "swiper": "^10.3.0",

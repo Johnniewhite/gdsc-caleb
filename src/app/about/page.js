@@ -1,15 +1,12 @@
 import Header from "../components/Header";
-import Social from "./Social";
+import Body from "./Body";
 
 
 export default function Home() {
   return (
     <>
     <Header />
-
-    <Social />
-      
-      
+      <Body />
     </>
   );
 }
