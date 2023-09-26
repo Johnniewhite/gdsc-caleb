@@ -17,6 +17,7 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const products = [
   {
@@ -41,7 +42,7 @@ const products = [
     name: "Do's and Dont's",
     description:
       "A regularly updated list of rules that the community has to abide by for smooth operation in the institution",
-    href: "#",
+    href: "/rules",
     icon: BookOpenIcon,
   },
 ];
@@ -64,7 +65,7 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <Image
               className="h-8 w-auto"
               width={100}
@@ -72,7 +73,7 @@ export default function Header() {
               src="/logo.png"
               alt="GDSC CALEB UNIVERSITY"
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -116,13 +117,13 @@ export default function Header() {
                         />
                       </div>
                       <div className="flex-auto">
-                        <a
+                        <Link
                           href={item.href}
                           className="block font-semibold text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                         <p className="mt-1 text-gray-600">{item.description}</p>
                       </div>
                     </div>
@@ -132,13 +133,13 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Events
-          </a>
+          </Link>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900">
             About GDSC Caleb
-          </a>
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -202,27 +203,27 @@ export default function Header() {
                     </>
                   )}
                 </Disclosure>
-                <a
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Features
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Company
-                </a>
+                </Link>
               </div>
               <div className="py-6">
-                <a
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in
-                </a>
+                </Link>
               </div>
             </div>
           </div>

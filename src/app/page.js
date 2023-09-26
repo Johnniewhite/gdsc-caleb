@@ -1,12 +1,12 @@
 import Header from "./components/Header";
-import HomePage from "./HomePage";
+import HeroSection from "./components/HeroSection";
 
 
 export default function Home() {
   return (
     <>
     <Header />
-      <HomePage />
+      <HeroSection />
       
     </>
   );
