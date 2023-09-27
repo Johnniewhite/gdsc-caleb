@@ -20,7 +20,7 @@ const HeroSection = () => {
                 Get started
               </a>
               <a
-                href="#"
+                href="https://gdsc.community.dev/caleb-university/"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Check Out Activities <span aria-hidden="true">→</span>
@@ -28,8 +28,9 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 p-12">
+        <div className="w-full sm:w-1/2 py-12">
           <div
+          className="mb:mx-[-40px]"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(2, 1fr)",
