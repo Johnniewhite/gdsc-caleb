@@ -38,7 +38,7 @@ const HeroSection = () => {
             }}
           >
             <div style={{ position: "relative", height: "200px", overflow: "hidden" }}>
-              <img
+              <Image
                 className="border border-gray-400 rounded-lg"
                 src="/fulllLogo.jpeg"
                 alt=""
@@ -46,7 +46,7 @@ const HeroSection = () => {
               />
             </div>
             <div style={{ position: "relative", height: "200px", overflow: "hidden" }}>
-              <img
+              <Image
                 className="border border-gray-400 rounded-lg"
                 src="/infoSesh.jpeg"
                 alt=""
@@ -54,7 +54,7 @@ const HeroSection = () => {
               />
             </div>
             <div style={{ position: "relative", height: "200px", overflow: "hidden" }}>
-              <img
+              <Image
                 className="border border-gray-400 rounded-lg"
                 src="/infoSeshFlyer.jpeg"
                 alt=""
@@ -62,7 +62,7 @@ const HeroSection = () => {
               />
             </div>
             <div style={{ position: "relative", height: "200px", overflow: "hidden" }}>
-              <img
+              <Image
                 className="border border-gray-400 rounded-lg"
                 src="/flyerTwo.jpeg"
                 alt=""
